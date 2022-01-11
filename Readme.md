@@ -37,7 +37,7 @@ _Other states of the configuration_:
 
 **Powershell profile** (Microsoft.PowerShell_profile.ps1)
 
-- Init oh-my-posh config
+- Init __oh-my-posh__ config
 - Import module __posh-git__ for tab completion
 - Import module __Terminal-Icons__
 - Set parameter completion for ```dotnet```
