@@ -34,6 +34,17 @@
                         "style": "folder"
                     }
                 },
+                // {
+                //     "type": "az",
+                //     "style": "powerline",
+                //     "powerline_symbol": "",
+                //     "foreground": "#000000",
+                //     "background": "#9ec3f0",
+                //     "properties": {
+                //       "template": "{{.Name}}",
+                //       "prefix": " \uFD03 "
+                //     }
+                // },
                 {
                     "type": "dotnet",
                     "style": "powerline",

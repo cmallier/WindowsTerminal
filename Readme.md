@@ -42,6 +42,7 @@ _Other states of the configuration_:
 - Import module __Terminal-Icons__
 - Set parameter completion for ```dotnet```
 - Set parameter completion for ```winget```
+- Set parameter completion for ```gh```
 - Set Key-bindings (via PSReadLine Module)
   - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>b</kbd> > ```dotnet build```
   - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>t</kbd> > ```dotnet test```

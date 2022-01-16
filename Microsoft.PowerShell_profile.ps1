@@ -31,6 +31,11 @@ Register-ArgumentCompleter -Native -CommandName winget -ScriptBlock {
 }
 
 
+# Generate completion for gh
+# https://cli.github.com/manual/gh_completion
+Invoke-Expression -Command $(gh completion -s powershell | Out-String)
+
+
 # Shorcuts for our commands
 Set-PSReadLineKeyHandler -Key Ctrl+Shift+b `
                          -BriefDescription BuildCurrentDirectory `
