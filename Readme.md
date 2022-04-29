@@ -3,6 +3,12 @@
 Configuration for my Windows Terminal
 
 
+##
+Copy Microsoft.PowerShell_profile.ps1 inside $Profile
+
+`> code $Profile`
+
+
 ## Files
 
 **Windows Terminal configuration** (settings.json)
@@ -21,7 +27,7 @@ Configuration for my Windows Terminal
   - Current value of ASPNETCORE_ENVIRONMENT
 - Executiontime
   - Execution time of the previously executed command
-- Git 
+- Git
   - Git information when in a git repository
 - Exit
   - Last exit code or that the last command failed
