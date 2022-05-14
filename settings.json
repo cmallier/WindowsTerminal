@@ -1,9 +1,10 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
@@ -15,15 +16,11 @@
             "keys": "ctrl+v"
         },
         {
-            "command": "unbound",
-            "keys": "ctrl+shift+t"
-        },
-        {
             "command": "find",
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -34,37 +31,35 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "profiles": 
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "profiles":
     {
-        "defaults": 
-        {
+        "defaults": {
             "acrylicOpacity": 0.75,
             "colorScheme": "One Half Dark",
-            "font": 
+            "font":
             {
-                "face": "CaskaydiaCove Nerd Font",
+                //"face": "CaskaydiaCove Nerd Font",
+                "face": "Consolas",
                 "size": 14
-            }, 
-            "useAcrylic": true
+            },
+            "useAcrylic": true,
+            "cursorColor": "#73c5ed"
         },
-        "list": 
+        "list":
         [
             {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": "c:\\Projects"
-            },
-            {
-                "commandline": "powershell.exe",
+
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": true,
-                "name": "Windows PowerShell"
+                "hidden": false,
+                "name": "Windows PowerShell",
+                //"tabColor":  "#282c34",
+                // "tabColor": "#b75860",
+                // "tabColor": "#3581b4",
+                "tabColor": "#255c81",
+                "startingDirectory": "c:\\GitHub"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -76,17 +71,37 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{60e59d3d-cc18-5314-8f06-dd91f8b5d1c2}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{7c6adfb4-89ec-5b2d-806c-7c78cdf4bdf6}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
-                "commandline": "wsl ~"
-            }            
+                "colorScheme": "One Half Dark",
+                "tabColor": "#b75860"
+            }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
-            "background": "#141414",
+            "background": "#0C0C0C",
             "black": "#0C0C0C",
             "blue": "#0037DA",
             "brightBlack": "#767676",
@@ -292,8 +307,5 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ],
-    "showTabsInTitlebar": true,
-    "theme": "dark",
-    "useAcrylicInTabRow": true
+    ]
 }
