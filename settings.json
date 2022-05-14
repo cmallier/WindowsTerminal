@@ -40,7 +40,8 @@
             "font":
             {
                 //"face": "CaskaydiaCove Nerd Font",
-                "face": "Consolas",
+                // "face": "Consolas",
+                "face": "Cascadia Code",
                 "size": 14
             },
             "useAcrylic": true,
