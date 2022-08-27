@@ -3,6 +3,10 @@
 Configuration for my Windows Terminal
 
 
+## Modules
+Install-Module Terminal-Icons
+Install-Module posh-git -Scope CurrentUser -Force
+
 ##
 Copy Microsoft.PowerShell_profile.ps1 inside $Profile
 
@@ -54,7 +58,9 @@ _Other states of the configuration_:
   - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>t</kbd> > ```dotnet test```
 
 
-
+### Fonts
+https://www.nerdfonts.com/font-downloads
+Caskaydia Cove Nerd Font
 
 ### Credits / Inspiration / Docs
 
