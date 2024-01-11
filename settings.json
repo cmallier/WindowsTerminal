@@ -35,7 +35,6 @@
     "profiles":
     {
         "defaults": {
-            "acrylicOpacity": 0.75,
             "colorScheme": "One Half Dark",
             "font":
             {
@@ -45,7 +44,9 @@
                 "face": "Cascadia Code",
                 "size": 14
             },
+            "opacity": 75,
             "useAcrylic": true,
+            "acrylicOpacity": 75,
             "cursorColor": "#73c5ed"
         },
         "list":
