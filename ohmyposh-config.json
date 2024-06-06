@@ -62,16 +62,17 @@
                     "type": "envvar"
                 },
                 {
+                    "type": "executiontime",
+                    "style": "powerline",
+                    "powerline_symbol": "\ue0b0",
                     "background": "#b178f5",
                     "foreground": "#ffffff",
-                    "powerline_symbol": "\ue0b0",
+                    "template": " \udb81\udd1b {{ .FormattedMs }} ",
                     "properties": {
                         "style": "austin",
-                        "threshold": 500
-                    },
-                    "style": "powerline",
-                    "template": " \ufa1a {{ .FormattedMs }} ",
-                    "type": "executiontime"
+                        "threshold": 500,
+                        "always_enabled": false
+                    }
                 },
                 {
                     "background": "#f5c012",
@@ -97,7 +98,7 @@
                         "fetch_upstream_icon": true
                     },
                     "style": "powerline",
-                    "template": " {{ .HEAD }} {{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0}} \uf692 {{ .StashCount }}{{ end }}{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} ",
+                    "template": " {{ .HEAD }} {{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0}} \uf0c7 {{ .StashCount }}{{ end }}{{ if gt .WorktreeCount 0}} \uf1bb {{ .WorktreeCount }}{{ end }} ",
                     "type": "git"
                 },
                 {
